@@ -1,5 +1,5 @@
 # Email Capture
-![Cosmic Email Capture](https://cosmicjs.imgix.net/dc7f1680-d13f-11e6-8fbd-bf2ca03de273-email-capture.jpg?w=1200)
+![Cosmic Email Capture](https://cosmicjs.com/uploads/d41050d0-d140-11e6-8fbd-bf2ca03de273-email-capture.jpg?w=1200)
 ###[View Demo](https://cosmicjs.com/apps/email-capture/demo)
 A simple landing page for lead email capture to MailChimp.  Set this up in a few steps:
 1. [Log in to Cosmic JS](https://cosmicjs.com).
