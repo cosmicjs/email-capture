@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<!--
+	Eventually by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>{{ cosmic.object.email-capture.title }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<h1>{{ cosmic.object.email-capture.metadata.headline }}</h1>
+				<div>{{{ cosmic.object.email-capture.content }}}</div>
+			</header>
+
+			<form target="_blank" id="signup-form" method="post" action="{{ cosmic.object.email-capture.metadata.mailchimp_list_url }}">
+				<input type="email" name="EMAIL" id="email" placeholder="Email Address" required />
+				<input type="submit" value="{{ cosmic.object.email-capture.metadata.button_text }}" />
+			</form>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					{{# cosmic.object.email-capture.metadata.twitter }}
+						<li><a target="_blank" href="{{ cosmic.object.email-capture.metadata.twitter }}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					{{/ cosmic.object.email-capture.metadata.twitter }}
+					{{# cosmic.object.email-capture.metadata.instagram }}
+						<li><a target="_blank" href="{{ cosmic.object.email-capture.metadata.instagram }}" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+					{{/ cosmic.object.email-capture.metadata.instagram }}
+					{{# cosmic.object.email-capture.metadata.github }}
+						<li><a target="_blank" href="{{ cosmic.object.email-capture.metadata.github }}" class="icon fa-github"><span class="label">GitHub</span></a></li>
+					{{/ cosmic.object.email-capture.metadata.github }}
+					{{# cosmic.object.email-capture.metadata.email }}
+						<li><a target="_blank" href="mailto:{{ cosmic.object.email-capture.metadata.email }}" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+					{{/ cosmic.object.email-capture.metadata.email }}
+				</ul>
+				<ul class="copyright">
+					<li>&copy; {{ year }} {{ cosmic.object.email-capture.metadata.company_name }}</li>
+					<li>
+						<a href="https://cosmicjs.com" target="_blank"><img style="float:left;margin-right:15px;position:relative;top: -5px;" src="https://cosmicjs.com/images/logo.svg" width="28" height="28"><span>Proudly powered by Cosmic JS</span></a>
+					</li>
+				</ul>
+			</footer>
+
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script id="bg_images" type="application/json">{{{ bg_images }}}</script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
