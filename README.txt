@@ -1,69 +1,27 @@
-Eventually by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Email Capture
+![Cosmic Landing Page](https://cosmicjs.imgix.net/d853eea0-c663-11e6-9d4e-3b627b472fc5-landing-page.png?w=1500)
+###[View Demo](https://cosmicjs.com/apps/email-capture/demo)
+###Getting Started
+```
+git clone https://github.com/cosmicjs/email-capture
+cd email-capture
+yarn
+```
+####Start app
+```
+yarn start
+```
+####Start app connected to your Cosmic JS Bucket
+```
+COSMIC_BUCKET=your-bucket-slug yarn start
+```
+Open [http://localhost:3000](http://localhost:3000).
 
+###Manage Content
+You can easily manage all of the content on this Landing Page on Cosmic JS.  Follow these steps:
 
-Just a simple placeholder template for your kickass app/product/startup/whatever until it
-launches. Includes an email signup form and a cool slideshow background (more on both below).
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
-
-
-Signup Form:
-
-	The signup form won't actually do anything (other than report back with a "thank you" message)
-	until you tie it to either a third party service (eg. MailChimp) or your own hosted solution.
-	In either case, there are two ways to go:
-
-	1. The conventional (non-AJAX) way, which pretty much comes down to pointing the form's "action"
-	attribute to your service/script URL. If you go this route, remove the entire "Signup Form" code
-	block from assets/js/main.js (since it's not needed for this approach).
-
-	-or-
-
-	2. The AJAX way. How you set this up is largely dependent on the service/solution you're using
-	so you'll need to consult their/its documentation. However, I have included some basic code
-	(under "Signup Form" in assets/js/main.js) that will at least let you interact with the
-	form itself.
-
-
-Slideshow Background:
-
-	This is pretty straightforward, but there are two JS settings you'll want to be aware of
-	(found under "Slideshow Background" in assets/js/main.js):
-
-	images
-
-		The list of images to cycle through, given in the following format:
-
-			'url': 'alignment'
-
-		Where 'url' is the image (eg. 'images/foo.jpg', 'http://somewhere.else/foo.jpg'), and
-		'alignment' is how the image should be vertically aligned ('top', 'center', or 'bottom').
-
-		Note: Browsers that don't support CSS transitions (like IE<=9) will only see the first image.
-
-	delay
-
-		How long to wait between transitions (in ms). Note that this must be at least twice as long as
-		the transition speed itself (currently 3 seconds).
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fortawesome.github.com/Font-Awesome)
-
-	Other:
-		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		Respond.js (j.mp/respondjs)
-		Skel (skel.io)
+1. [Log in to Cosmic JS](https://cosmicjs.com).
+2. Create a Bucket.
+3. Go to Your Bucket > Apps.
+4. Install the [Email Capture App](https://cosmicjs.com/apps/email-capture).
+5. Deploy your Email Capture App to the Cosmic App Server at Your Bucket > Web Hosting.
