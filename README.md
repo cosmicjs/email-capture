@@ -40,4 +40,4 @@ Open [http://localhost:3000](http://localhost:3000).
 ![Copy the code](https://cosmicjs.com/uploads/89c89710-d142-11e6-8fbd-bf2ca03de273-mc-4.png?w=1200)
 5. Take everything inside action=""
 6. Add this URL to your MailChimp List URL Metafield in your Bucket
-![Copy the code](https://cosmicjs.com/uploads/89bb50a0-d142-11e6-8fbd-bf2ca03de273-mc-5.png?w=1200)
+![Copy the code](https://cosmicjs.com/uploads/2064cdb0-d143-11e6-8fbd-bf2ca03de273-mc-5.png?w=1200)
