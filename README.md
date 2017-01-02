@@ -29,7 +29,7 @@ Open [http://localhost:3000](http://localhost:3000).
 1. Go to the List Section of your MailChimp account
 2. Select the List, or add a new List that will receive your emails
 3. Select Signup forms
-![Select Signup forms](https://cosmicjs.com/uploads/89981130-d142-11e6-8fbd-bf2ca03de273-mc-1.png?w=1200)
+![Select Signup forms](https://cosmicjs.com/uploads/c6627a30-d145-11e6-8fbd-bf2ca03de273-Screen%20Shot%202017-01-02%20at%205.46.44%20PM.png?w=1200)
 4. Select Embedded forms
 ![Select Signup forms](https://cosmicjs.com/uploads/89b38870-d142-11e6-8fbd-bf2ca03de273-mc-2.png?w=1200)
 5. Select Naked
