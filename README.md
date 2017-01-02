@@ -29,7 +29,7 @@ Open [http://localhost:3000](http://localhost:3000).
 1. Go to the List Section of your MailChimp account
 2. Select the List, or add a new List that will receive your emails
 
-##Add the MailChimp List URL Metafield to point to your MailChimp List
+###Add the MailChimp List URL Metafield to point to your MailChimp List
 1. Select Signup forms
 ![Select Signup forms](https://cosmicjs.com/uploads/89981130-d142-11e6-8fbd-bf2ca03de273-mc-1.png?w=1200)
 2. Select Embedded forms
