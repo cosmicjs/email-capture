@@ -7,7 +7,8 @@ A simple landing page for lead email capture to MailChimp.  Set up in a few step
 2. Create a Bucket.
 3. Go to Your Bucket > Apps.
 4. Install the [Email Capture App](https://cosmicjs.com/apps/email-capture).
-5. Deploy your Email Capture App to the Cosmic App Server at Your Bucket > Web Hosting.
+5. Edit the MailChimp List URL Metafield to point to your MailChimp List. (see below)
+6. Deploy your Email Capture App to the Cosmic App Server at Your Bucket > Web Hosting.
 
 ###Getting Started
 ```
@@ -24,3 +25,19 @@ yarn start
 COSMIC_BUCKET=your-bucket-slug yarn start
 ```
 Open [http://localhost:3000](http://localhost:3000).
+###Set Up Your MailChimp List
+1. Go to the List Section of your MailChimp account
+2. Select the List, or add a new List that will receive your emails
+
+##Add the MailChimp List URL Metafield to point to your MailChimp List
+1. Select Signup forms
+![Select Signup forms](https://cosmicjs.com/uploads/89981130-d142-11e6-8fbd-bf2ca03de273-mc-1.png?w=1200)
+2. Select Embedded forms
+![Select Signup forms](https://cosmicjs.com/uploads/89b38870-d142-11e6-8fbd-bf2ca03de273-mc-2.png?w=1200)
+3. Select Naked
+![Select Naked](https://cosmicjs.com/uploads/89a111e0-d142-11e6-8fbd-bf2ca03de273-mc-3.png?w=1200)
+4. Copy the code
+![Copy the code](https://cosmicjs.com/uploads/89c89710-d142-11e6-8fbd-bf2ca03de273-mc-4.png?w=1200)
+5. Just take everything after action=""
+6. Add this URL to your MailChimp List URL Metafield in your Bucket
+![Copy the code](https://cosmicjs.com/uploads/89bb50a0-d142-11e6-8fbd-bf2ca03de273-mc-5.png?w=1200)
