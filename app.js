@@ -17,7 +17,9 @@ var config = {
 app.get('/', function(req, res) {
   Cosmic.getObjects(config, function(err, response) {
     res.locals.cosmic = response;
-    var bg_images = response.object['email-capture'].metadata.background_gallery.map(function(item) {
+    if (!response.object.home)
+      return res.send('Object not found.  Make sure you have a page titled Home in your Cosmic JS Bucket.')
+    var bg_images = response.object.home.metadata.background_gallery.map(function(item) {
       return { 
        url: item.image.imgix_url + '?w=1200',
        alignment: 'center'
