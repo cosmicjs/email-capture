@@ -37,5 +37,5 @@ Open [http://localhost:3000](http://localhost:3000).
 6. Copy the code
 ![Copy the code](https://cosmicjs.com/uploads/89c89710-d142-11e6-8fbd-bf2ca03de273-mc-4.png?w=1200)
 7. Take everything inside action=""
-8. Add this URL to your MailChimp List URL Metafield in Your Bucket > Pages > Email Capture
+8. Add this URL to your MailChimp List URL Metafield in Your Bucket > Pages > Home
 ![Copy the code](https://cosmicjs.com/uploads/2064cdb0-d143-11e6-8fbd-bf2ca03de273-mc-5.png?w=1200)
