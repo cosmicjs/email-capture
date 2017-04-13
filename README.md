@@ -1,6 +1,6 @@
 # Email Capture
 ![Cosmic Email Capture](https://cosmicjs.com/uploads/d41050d0-d140-11e6-8fbd-bf2ca03de273-email-capture.jpg?w=1200)
-###[View Demo](https://cosmicjs.com/apps/email-capture/demo)
+### [View Demo](https://cosmicjs.com/apps/email-capture/demo)
 A simple landing page for lead email capture to MailChimp.  Set up in a few steps:
 
 1. [Log in to Cosmic JS](https://cosmicjs.com).
@@ -10,22 +10,22 @@ A simple landing page for lead email capture to MailChimp.  Set up in a few step
 5. Edit the MailChimp List URL Metafield to point to your MailChimp List. (see below)
 6. Deploy your Email Capture App to the Cosmic App Server at Your Bucket > Web Hosting.
 
-###Getting Started
+### Getting Started
 ```
 git clone https://github.com/cosmicjs/email-capture
 cd email-capture
 yarn
 ```
-####Start app
+#### Start app
 ```
 yarn start
 ```
-####Start app connected to your Cosmic JS Bucket
+#### Start app connected to your Cosmic JS Bucket
 ```
 COSMIC_BUCKET=your-bucket-slug yarn start
 ```
 Open [http://localhost:3000](http://localhost:3000).
-###Setting up MailChimp
+### Setting up MailChimp
 1. Go to the List Section of your MailChimp account
 2. Select the List, or add a new List that will receive your emails
 3. Select Signup forms
